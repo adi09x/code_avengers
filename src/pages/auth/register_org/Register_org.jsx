@@ -15,31 +15,26 @@ export default function Register() {
     >  
       <VStack spacing={4} align='flex-start' w='full'>
         <VStack spacing={1} align={['flex-start' , 'center']} w='full' mb='3'> 
-          <Heading>SignUp</Heading>
+          <Heading>Please Register Your Organization Here </Heading>
           {/* <Text></Text> */}
         </VStack>
       
 
       <FormControl>
-        <FormLabel>First Name</FormLabel>
-        <Input rounded='none' varient='filled'/>
+        {/* <Text>Register to Join!</Text> */}
 
-        <FormLabel>Last Name</FormLabel>
+        <FormLabel ml="10px">Organization Name</FormLabel>
         <Input rounded='none' varient='filled'/>
 
         <FormLabel>E-mail Address</FormLabel>
         <Input rounded='none' varient='filled'/>
 
-        <FormLabel>Password</FormLabel>
-        <Input rounded='none' varient='filled' type='password'/>
+        <FormLabel>Oraganization Location</FormLabel>
+        <Input rounded='none' varient='filled'/>
       </FormControl>
 
-      <HStack w='full' justify='space-between'>
-        <Checkbox>Remember me.</Checkbox>
-
-      </HStack>
       </VStack>
-      <Button bgColor='blue.400' rounded='none' color='white' w={['full' , 'auto']} alignSelf='end'>Sign Up</Button>
+      <Button bgColor='blue.400' rounded='none' color='white' w={['full' , 'auto']} alignSelf='end'>Register</Button>
       
     </Box>
 
